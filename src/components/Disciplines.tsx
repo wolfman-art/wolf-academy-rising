@@ -110,7 +110,7 @@ export default function Disciplines() {
                 </a>
               </div>
 
-              <div className="absolute inset-0 border-2 border-primary rounded-2xl opacity-0 group-hover:opacity-100 scale-[1.02] group-hover:scale-100 transition-all duration-500" />
+              <div className="pointer-events-none absolute inset-0 border-2 border-primary rounded-2xl opacity-0 group-hover:opacity-100 scale-[1.02] group-hover:scale-100 transition-all duration-500" />
             </motion.div>
           ))}
         </div>
