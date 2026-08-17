@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { blogPosts } from '@/data/blogPosts';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -31,8 +32,13 @@ export default function Blog() {
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: index * 0.1 }}
-                                className="group bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-300 flex flex-col"
+                                className="group relative bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-300 flex flex-col"
                             >
+                                <Link
+                                    to={`/blog/${post.slug}`}
+                                    aria-label={`Read article: ${post.title}`}
+                                    className="absolute inset-0 z-10 rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                                />
                                 <div className="relative h-48 overflow-hidden">
                                     <img
                                         src={post.image}
@@ -64,12 +70,9 @@ export default function Blog() {
                                         {post.excerpt}
                                     </p>
 
-                                    <a
-                                        href={`/blog/${post.slug}`}
-                                        className="flex items-center gap-2 text-primary font-heading text-sm tracking-wider hover:translate-x-1 transition-transform"
-                                    >
+                                    <span className="flex items-center gap-2 text-primary font-heading text-sm tracking-wider transition-transform group-hover:translate-x-1">
                                         READ ARTICLE <ArrowRight size={16} />
-                                    </a>
+                                    </span>
                                 </div>
                             </motion.article>
                         ))}
