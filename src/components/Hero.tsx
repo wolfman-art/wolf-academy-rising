@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import heroImage from '@/assets/hero-gym.jpg';
+import heroImage from '@/assets/optimized/hero-gym.jpg';
 import wolfLogo from '@/assets/wolf-logo.jpg';
 
 export default function Hero() {

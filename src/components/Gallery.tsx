@@ -2,23 +2,23 @@ import { useState, useRef } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
-import bagsAndDummies from '../assets/bags-and-dummies.jpg';
-import bags from '../assets/bags.jpg';
-import barbellsPlates from '../assets/barbells-plates.jpg';
-import basketball from '../assets/basketball.jpg';
-import calithenicsArea from '../assets/calithenics-area.jpg';
+import bagsAndDummies from '../assets/optimized/bags-and-dummies.jpg';
+import bags from '../assets/optimized/bags.jpg';
+import barbellsPlates from '../assets/optimized/barbells-plates.jpg';
+import basketball from '../assets/optimized/basketball.jpg';
+import calithenicsArea from '../assets/optimized/calithenics-area.jpg';
 import coachStudent from '../assets/coach-student.jpeg';
 import coachStudent2 from '../assets/coach-student2.jpeg';
-import cycles from '../assets/cycles.jpg';
-import dumbles from '../assets/dumbles.jpg';
-import heroGym from '../assets/hero-gym.jpg';
-import mirrorArea from '../assets/mirror-area.jpg';
-import moonboard from '../assets/moonboard.jpg';
-import runningTrack from '../assets/running-track.jpg';
-import seatingArea from '../assets/seating-area.jpg';
+import cycles from '../assets/optimized/cycles.jpg';
+import dumbles from '../assets/optimized/dumbles.jpg';
+import heroGym from '../assets/optimized/hero-gym.jpg';
+import mirrorArea from '../assets/optimized/mirror-area.jpg';
+import moonboard from '../assets/optimized/moonboard.jpg';
+import runningTrack from '../assets/optimized/running-track.jpg';
+import seatingArea from '../assets/optimized/seating-area.jpg';
 import sparring from '../assets/sparring.jpeg';
-import tt from '../assets/tt.jpg';
-import wholeGym from '../assets/whole-gym.jpg';
+import tt from '../assets/optimized/tt.jpg';
+import wholeGym from '../assets/optimized/whole-gym.jpg';
 
 const galleryImages = [
   { src: wholeGym, alt: 'Wolf Academy India gym interior - MMA training facility in Bengaluru', size: 'large' },
