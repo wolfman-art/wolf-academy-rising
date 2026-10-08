@@ -53,7 +53,7 @@ export const blogPosts: BlogPost[] = [
               <span>For those who get stuck in late traffic or meetings.</span>
             </li>
           </ul>
-          <p>Conveniently located near <strong class="text-primary">Reva University</strong> and <strong class="text-primary">Yelahanka New Town</strong>, we are the accessible choice for North Bangalore's tech community.</p>
+          <p>Our training programs welcome Bangalore's tech community, from complete beginners to experienced athletes.</p>
         </section>
 
         <div class="bg-gradient-to-r from-primary/20 to-primary/5 p-8 rounded-2xl border-2 border-primary text-center">
@@ -93,13 +93,13 @@ export const blogPosts: BlogPost[] = [
 
         <section class="bg-card p-6 rounded-xl border border-border">
           <h2 class="text-2xl font-bold text-primary mb-4">🏢 Wolf Academy: At the Heart of the Community</h2>
-          <p class="mb-4">Located strategically at <strong>The School of Raya on Bagalur Road</strong>, Wolf Academy India has become the focal point for martial arts in North Bangalore. We aren't just a gym; we are a training ground for champions and hobbyists alike.</p>
-          <p>Our proximity to <strong>Reva University</strong> and the bustling <strong>Hennur-Bagalur stretch</strong> makes it convenient for students and working professionals to drop in for an evening session without the dread of Crosstown traffic.</p>
+          <p class="mb-4">Wolf Academy India brings martial arts training to North Bangalore. We are a training community for champions and hobbyists alike.</p>
+          <p>Students and working professionals can contact us to learn about current classes and trial sessions.</p>
         </section>
 
         <div class="bg-gradient-to-r from-primary/20 to-primary/5 p-8 rounded-2xl border-2 border-primary text-center">
           <h3 class="text-2xl font-bold text-primary mb-3">🐺 Join the Wolf Pack in North Bangalore</h3>
-          <p class="mb-6 text-lg">Whether you are from Yelahanka, Hennur, or right here in Bagalur, your journey to greatness starts on our mats. Stop searching for "boxing near me" and come experience the best.</p>
+          <p class="mb-6 text-lg">Whether you are new to boxing or ready to build on your skills, your journey starts with a trial class. Contact us to learn more.</p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://wolfacademyindia.com/#contact" class="inline-block bg-primary text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-primary/90 transition-all hover:scale-105">Book Your Free Trial →</a>
             <a href="tel:9319812158" class="inline-block bg-surface-elevated text-foreground font-bold py-3 px-8 rounded-lg text-lg border border-border hover:border-primary transition-all">Call Us Now</a>

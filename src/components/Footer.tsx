@@ -1,4 +1,4 @@
-import { Phone, Mail, Instagram, MapPin, Facebook } from 'lucide-react';
+import { Phone, Mail, Instagram, Facebook } from 'lucide-react';
 import wolfLogo from '@/assets/wolf-logo.jpg';
 
 const WhatsAppIcon = ({ size = 20, className = "" }: { size?: number, className?: string }) => (
@@ -127,10 +127,6 @@ export default function Footer() {
                   <span className="font-body">@wolf_academy_india</span>
                 </a>
               </li>
-              <li className="flex items-start gap-3 text-muted-foreground">
-                <MapPin size={18} className="mt-1 flex-shrink-0" />
-                <span className="font-body text-sm">The School of Raya Hennaur, Bagalur Road, Dasanayakanahalli, Bengaluru - 562149</span>
-              </li>
             </ul>
           </div>
         </div>
@@ -142,9 +138,6 @@ export default function Footer() {
             <div className="text-center sm:text-left">
               <p className="font-body text-sm text-muted-foreground">
                 © {new Date().getFullYear()} Wolf Academy India. All rights reserved.
-              </p>
-              <p className="font-body text-xs text-muted-foreground mt-1">
-                Proudly serving Dasanayakanahalli, Bagalur Road, and North Bangalore.
               </p>
             </div>
             <p className="font-body text-sm text-muted-foreground">

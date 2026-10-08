@@ -14,10 +14,6 @@ const faqData = [
     {
         question: "What membership options are available at Wolf Academy?",
         answer: "We offer flexible membership plans to suit your schedule and budget. Choose from monthly, quarterly, or annual memberships. We also have special discounts for students and corporate groups. Contact us for current pricing."
-    },
-    {
-        question: "Where is Wolf Academy India located in Bangalore?",
-        answer: "We are located at The School of Raya Hennaur, Bagalur Road, Dasanayakanahalli, Bengaluru, Karnataka - 562149. We're easily accessible from North Bangalore and surrounding areas."
     }
 ];
 

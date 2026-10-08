@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Send, Phone, Mail, MapPin, Instagram } from 'lucide-react';
+import { Send, Phone, Mail, Instagram } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const disciplines = ['MMA', 'Boxing', 'BJJ', 'Muay Thai', 'Strength & Conditioning', 'Kids MMA'];
@@ -126,21 +126,6 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a
-                href="https://www.google.com/maps/search/?api=1&query=Wolf+Academy+India%2C+The+School+of+Raya%2C+Bagalur+Road%2C+Dasanayakanahalli%2C+Bengaluru+562149"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-colors group"
-              >
-                <div className="p-3 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                  <MapPin size={24} />
-                </div>
-                <div>
-                  <p className="font-heading text-sm text-muted-foreground">Location</p>
-                  <p className="font-heading text-lg text-foreground">Bagalur Road, Bengaluru</p>
-                  <p className="font-body text-sm text-primary mt-1">Get directions →</p>
-                </div>
-              </a>
             </div>
           </motion.div>
 
